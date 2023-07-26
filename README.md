@@ -42,7 +42,9 @@ These parameters are used in Solo12's towr robot model, and are located in the s
 * Inertia tensor: added the inertia tensors of all the links in the Solo12 URDF file
 
 ## Working Visuals for SOLO12.
-
+<div align="center">
+  <a href="https://youtu.be/bcXZHeLH80U"><img src="https://github.com/Praful22/xpp-solo12/Solo12XPPvisualizer.png"><alt="IMAGE ALT TEXT"></a>
+</div>
 
 ## How This Package Was Created
 ### Resources Used
