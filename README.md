@@ -6,7 +6,7 @@ A ROS package for visualizing gaits generated using towr in xpp.
 ## How to Add Solo12 to Towr
 These instructions are written for [towr built with catkin](https://github.com/ethz-adrl/towr#-building-with-catkin).
 
-### Set up the Solo12 visualization in towr
+### Set up the Solo12 visualization in XPP (ROS)
 #### Get the xpp_solo12 package
 1. Create a catkin workspace (tutorial here http://wiki.ros.org/catkin/Tutorials)
 2. Get the source files from the GitHub, put them in the `src` folder of the workspace, and rename the cloned repo to xpp_solo12
@@ -15,12 +15,12 @@ These instructions are written for [towr built with catkin](https://github.com/e
 5. Source the workspace by running the commands 
 `echo “source devel/setup.bash” >> ~/.bashrc` (writes the source command to the .bashrc file, which runs whenever a new terminal is opened) and `source ~/.bashrc` in the workspace directory
 
-#### Link the xpp_solo12 package to towr
+#### Link the xpp_solo12 package to towr workspace
 1. In your towr catkin workspace, add `<include file="$(find xpp_solo12)/launch/xpp_solo12.launch"></include>` to `src/towr/towr_ros/launch/towr_ros.launch` under `"Launches the URDF Visualizers"`. When towr is launched, it will now also launch the xpp_solo12 package.
 2. Build the towr workspace
 3. Launch towr* and create a new visualization within rviz as shown [in this tutorial](http://wiki.ros.org/xpp#Visualize_.2BAC8_Contribute_your_own_robot), but name it Solo12. Put `solo12_rviz_urdf_robot_description` in the Robot Description field and `solo12` in the TF Prefix field. Save when you exit towr. You should now be able to select Solo12 and see it in the visualization pane of towr
 
-### Add the Solo12 kinematics and dynamics models to towr
+### Add the Solo12 kinematics and dynamics models to towr workspace
 1. Copy solo12_model.h from the models folder of the xpp_solo12 package and paste it in `src/towr/towr/include/towr/models/examples` of your towr catkin workspace
 2. Add Solo12 to `src/towr/towr/include/towr/models/robot_model.h` and `src/towr/towr/src/robot_model.cc` in your towr catkin workspace
     * See the models/robot_model.h and models/robot_model.cc files in the xpp_solo12 package for how the modified files should look
