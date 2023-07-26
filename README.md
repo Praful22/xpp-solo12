@@ -41,8 +41,8 @@ These parameters are used in Solo12's towr robot model, and are located in the s
 * Max deviation of end effectors from nominal position: changed through trial and error until trajectory in towr looked realistic
 * Inertia tensor: added the inertia tensors of all the links in the Solo12 URDF file
 
-## Inverse Kinematics
-<insert info on inverse kinematics>
+## Working Visuals for SOLO12.
+
 
 ## How This Package Was Created
 ### Resources Used
