@@ -43,7 +43,7 @@ These parameters are used in Solo12's towr robot model, and are located in the s
 
 ## Working Visuals for SOLO12.
 <div align="center">
-  <a href="https://youtu.be/bcXZHeLH80U"><img src="https://github.com/Praful22/xpp-solo12/Solo12XPPvisualizer.png"><alt="IMAGE ALT TEXT"></a>
+  <video src="https://youtu.be/bcXZHeLH80U" width=180></video>
 </div>
 
 ## How This Package Was Created
@@ -61,7 +61,7 @@ These parameters are used in Solo12's towr robot model, and are located in the s
 * Followed this tutorial https://medium.com/swlh/7-simple-steps-to-create-and-build-our-first-ros-package-7e3080d36faa to build a ROS package named xpp_solo12. Based the package off of xpp_hyq
     * Populated the package with the urdf files and meshes from the robot_properties_solo GitHub
     * Created launch file
-    * Created executable node for urdf visualization inside the package. Contents for the executable node were based off of http://wiki.ros.org/xpp#Visualize_.2BAC8_Contribute_your_own_robot
+    * Created executable node for urdf visualization inside the package. Contents for the executable node were based on http://wiki.ros.org/xpp#Visualize_.2BAC8_Contribute_your_own_robot
     * In the packages CMakeList.txt file, `add_executable(urdf_visualizer_solo12 src/urdf_visualizer_solo12.cc)`, added the following code (the guide missed this step)
     ```
     target_link_libraries(urdf_visualizer_solo12
