@@ -1,7 +1,7 @@
 # xpp-solo12
 
 # xpp_solo12
-A ROS package for visualizing gaits generated using towr using xpp
+A ROS package for visualizing gaits generated using towr in xpp.
 
 ## How to Add Solo12 to Towr
 These instructions are written for [towr built with catkin](https://github.com/ethz-adrl/towr#-building-with-catkin).
