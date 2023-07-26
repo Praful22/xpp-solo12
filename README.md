@@ -45,6 +45,9 @@ These parameters are used in Solo12's towr robot model, and are located in the s
 
 https://github.com/Praful22/xpp-solo12/assets/65821250/b584c4a7-6a41-4bd4-a4e8-7135f34ed0fb
 
+https://github.com/Praful22/xpp-solo12/assets/65821250/5f01c3ad-ea2c-41e3-bdf9-de52fb4668cf
+
+
 
 ## How This Package Was Created
 ### Resources Used
