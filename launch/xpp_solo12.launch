@@ -1,0 +1,9 @@
+<launch>
+ 
+  <!-- Upload URDF file to ros parameter server for rviz to find  -->
+  <param name="solo12_rviz_urdf_robot_description" command="$(find xacro)/xacro --inorder '$(find xpp_solo12)/urdf/solo12.urdf.xacro'"/>
+  
+  <!-- Launches the urdf_visualizer_solo12 node  --> 
+  <node name="urdf_visualizer_solo12" pkg="xpp_solo12" type="urdf_visualizer_solo12" output="screen"/>
+     
+</launch>
