@@ -1,5 +1,3 @@
-# xpp-solo12
-
 # xpp_solo12
 A ROS package for visualizing gaits generated using towr in xpp.
 
